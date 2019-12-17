@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/relativeLayout"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/missionImage"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="6dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/missionName"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="6dp"
+        android:layout_toRightOf="@id/missionImage"
+        android:layout_alignBaseline="@+id/missionImage"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rocketName"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="6dp"
+        android:layout_toRightOf="@id/missionImage"
+        android:layout_alignBaseline="@+id/missionImage"
+        android:layout_below="@+id/missionName"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/siteName"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="6dp"
+        android:layout_toRightOf="@id/missionImage"
+        android:layout_alignBaseline="@+id/missionImage"
+        android:layout_below="@+id/rocketName"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/launchDateLocal"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="6dp"
+        android:layout_toRightOf="@id/missionImage"
+        android:layout_alignBaseline="@+id/missionImage"
+        android:layout_below="@+id/siteName"
+        />
+
+</RelativeLayout>
